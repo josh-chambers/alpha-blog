@@ -6,7 +6,8 @@
 <header>
   <h1>Welcome to my home blog page</h1>
   <image src="<%= image_path('dog_header.jpg') %>" class="center">
-    <nav><%=link_to 'About', about_path %></nav>
+
+    <nav><%=link_to 'About', about_path %> | <%= link_to 'Alpha Blog', articles_path %></nav>
 </header>
 
 <body>
