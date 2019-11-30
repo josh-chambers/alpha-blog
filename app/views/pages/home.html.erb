@@ -4,10 +4,12 @@
 <title>Pages About</title>
 </head>
 <header>
-  <h1>Welcome to my home blog page</h1>
-  <image src="<%= image_path('dog_header.jpg') %>" class="center">
+  <div class="jumbotron">
+    <h1>Welcome to Alpha Blog</h1>
+    <image src="<%= image_path('dog_header.jpg') %>" class="center">
 
-    <nav><%=link_to 'About', about_path %> | <%= link_to 'Alpha Blog', articles_path %></nav>
+    <%= link_to 'Sign up now', "#", class: "text-center btn btn-primary btn-large btn-xlarge button-center" %>
+  </div>
 </header>
 
 <body>
@@ -22,10 +24,6 @@
       <p>This will be the contet for the right side. I will also add some more content to the right side to make it a little bit longer.</p>
     </div>
   </div>
-
-<footer class=clearfix>
-	<p>This is the footer</p>
-</footer>
 </body>
 
 </html>
