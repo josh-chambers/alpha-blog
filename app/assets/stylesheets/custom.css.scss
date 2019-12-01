@@ -21,7 +21,7 @@ footer {
  	background-color: #fae4aa;
  	margin-top: 45px;
  	padding-top: 5px;
- 	border-top: 1px solid grey;
+ 	border-top: 1px solid #eaeaea;
  	width: 100%;
  	padding-left: 5px;
  	padding-right: 5px;
@@ -93,4 +93,11 @@ footer {
 }
 .btn:hover {
 	background-color: red;
+}
+.article-actions {
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+.description {
+	margin-top: 0;
 }
