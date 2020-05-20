@@ -1,8 +1,6 @@
-
 $navbar-default-bg: #fae4aa;
 
 @import "bootstrap";
-@import "bootstrap-sprockets";
 
 #logo {
 	float: left;
@@ -12,38 +10,31 @@ $navbar-default-bg: #fae4aa;
 	letter-spacing: -1px;
 	font-weight: bold;
 }
+.navbar {
+	background-color: black !important;
+}
+.nav-link {
+	color: white !important;
+}
+#home-container {
+	margin-top: 25px;
+}
+html,
+body {
+	height:100%;
+}
 
 #logo:hover {
-	color: #fff;
+	color: grey;
 	text-decoration: none;
 }
-footer {
- 	background-color: #fae4aa;
- 	margin-top: 45px;
- 	padding-top: 5px;
- 	border-top: 1px solid #eaeaea;
- 	width: 100%;
- 	padding-left: 5px;
- 	padding-right: 5px;
-
- }
- footer a:hover {
- 	color: 222;
- }
- footer p {
- 	float:left;
- }
- footer ul{
- 	float:right;
- 	list-style: none;
- }
- footer ul li {
- 	float: left;
- 	margin-left: 15px;
- }
-
- body {
- }
+.page-content {
+	flex: 1 0 auto;
+	background-color: #c5d9db;
+}
+#sticky-footer {
+	flex-shrink: none;
+}
 
  .center {
  	display: block;
@@ -58,60 +49,26 @@ footer {
  	margin-right: auto;
  	width: 25%;
  }
- .right {
- 	float: right;
- 	width: 49.5%;
- 	
- }
-.left {
- 	float: left;
- 	width: 49.5%;
- 	border-right: 3px solid black;
-}
-.clearfix {
-	content: "";
-  	clear: both;
-  	display: table;
-}
 
 .jumbotron {
-	height: 550px;
-	background-color: #c5d9db;
+	background-image: asset-url('dog_header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 395px;
+	
 }
 .jumbotron h1 {
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: -1px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
-.jumbotron img {
-	margin-bottom: 30px;
-}
+
 .btn-xlarge {
 	font-size: 1.7em;
 	background-color: black;
 }
 .btn:hover {
 	background-color: red;
-}
-
-.article-meta-details {
-	border-top: 1px solid #eaeaea;
-	margin-top: 15px;
-}
-.article-actions {
-	border-top: 1px solid #eaeaea;
-	padding-top: 5px;
-}
-.description {
-	margin-top: 0;
-}
-.article-title {
-	font-weight: bold;
-	font-size: 1.5em;
-}
-.article-body {
-	border-top: 1px solid #eaeaea;
-	padding-top: 15px;
-	padding-bottom: 15px;
 }
